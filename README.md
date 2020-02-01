@@ -2,11 +2,6 @@
 
 This is Dart extension kit. If this plugin is imported your project, it enable to use various extension function.
 
-## Example code
-See the example directory for a complete sample app using extension_kit.
-
-[example](https://github.com/hukusuke1007/extension_kit/tree/master/example)
-
 ## Installation
 
 Add this to your package's pubspec.yaml file:
@@ -18,17 +13,115 @@ dependencies:
 
 ## Feature list
 
-|ヘッダ0|ヘッダ1|
-|---|---:|
-|左寄せ|右寄せ|
-|左寄せ|右寄せ|
-|左寄せ|右寄せ|
-|左寄せ|右寄せ|
-|左寄せ|右寄せ|
-|左寄せ|右寄せ|
-|左寄せ|右寄せ|
-|左寄せ|右寄せ|
-|左寄せ|右寄せ|
-|左寄せ|右寄せ|
+Implementation extension's list. It will be create more extension feature in future.
+
+- [int](###int)
+- [double](###double)
+- [num](###num)
+- [String](###String)
+- [Date](###Date)
+
 
 ## Usage
+
+### int
+
+millisecondsToDate
+
+```dart
+print(1601996400000.millisecondsToDate()); // DateTime(2020, 10, 7)
+```
+
+### double
+
+roundWithDigit
+
+```dart
+const value1 = 10.45678;
+print(value1.roundWithDigit(1));   // 10.5
+print(value1.roundWithDigit(2));   // 10.46
+print(value1.roundWithDigit(3));   // 10.457
+print(value1.roundWithDigit(0));   // 10.45678
+print(value1.roundWithDigit(-1));  // 10.45678
+
+const value2 = 10.434321;
+print(value2.roundWithDigit(1));   // 10.4
+print(value2.roundWithDigit(2);    // 10.43
+print(value2.roundWithDigit(3));   // 10.434
+```
+
+### num
+
+commaFormat
+
+```dart
+print(100.commaFormat());         // '100'
+print(1000.commaFormat());        // '1,000'
+print(1000000.commaFormat());     // '1,000,000'
+print(1000000.123.commaFormat()); // '1,000,000.123'
+```
+
+### String
+
+toDate
+
+```dart
+print('20201008'.toDate());       // DateTime(2020, 10, 8)
+```
+
+toInt
+
+```dart
+print('123'.toInt());             // 123
+```
+
+toDouble
+
+```dart
+print('123.4567'.toDouble());     // 123.4567
+```
+
+isNewLine
+
+```dart
+print('\n'.isNewLine());          // true
+print('test'.isNewLine());        // false
+```
+
+### Date
+
+formatString
+
+```dart
+final date = DateTime(2020, 10, 7);
+print(date.formatString());                     // '10.07 2020'
+print(date.formatString(format: 'yyyy/MM/dd')); // '2020/10/07'
+```
+
+diffDays, diffHours, diffMinutes, diffSeconds
+
+```dart
+final dateA = DateTime(2020, 10, 7, 20, 10, 30);
+final dateB = DateTime(2020, 8, 2, 10, 5, 10);
+final dateC = DateTime(2020, 10, 7, 20, 10, 30);
+
+// dateA - dateB
+print(dateA.diffDays(dateB));       // 66
+print(dateA.diffHours(dateB));      // 1594
+print(dateA.diffMinutes(dateB));    // 95645
+print(dateA.diffSeconds(dateB));    // 5738720
+```
+
+isCompare
+
+```dart
+// dateA >= dateB => true
+// dateA < dateB => false
+final dateA = DateTime(2020, 10, 7, 20, 10, 30);
+final dateB = DateTime(2020, 8, 2, 10, 5, 10);
+final dateC = DateTime(2020, 10, 7, 20, 10, 30);
+
+print(dateA.isCompare(dateB));  // true
+print(dateA.isCompare(dateC));  // true
+print(dateB.isCompare(dateA));  // false
+```
