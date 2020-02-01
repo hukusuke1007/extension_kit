@@ -1,6 +1,6 @@
 name: extension_kit
 description: This is Dart extension kit. If this plugin is imported your project, it enable to use various extension function.
-version: 0.1.0
+version: 0.1.0+2
 homepage: https://twitter.com/hobbydevelop
 repository: https://github.com/hukusuke1007/extension_kit
 

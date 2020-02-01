@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3320f733-7b0b-4330-963b-ebf66b18b9bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/extension_kit/lib/extension/int_extension.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/extension/int_extension.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/extension_kit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/extension_kit/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/extension_kit/extension_kit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/extension_kit/extension_kit.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/extension_kit/lib/extension/date_extension.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/extension_kit/lib/extension/date_extension.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/extension_kit/lib/extension/double_extension.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/extension_kit/lib/extension/double_extension.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/extension_kit/lib/extension/num_extension.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/extension_kit/lib/extension/num_extension.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/extension_kit/lib/extension_kit.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/extension_kit/lib/extension_kit.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/extension_kit/test/extension_kit_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/extension_kit/test/extension_kit_test.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension_kit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/extension_kit.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/extension/date_extension.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/extension/date_extension.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/extension/double_extension.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/extension/double_extension.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/extension/num_extension.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/extension/num_extension.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/extension_kit.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/extension_kit.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/extension_kit_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/extension_kit_test.dart" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -52,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pubspec.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+            <state relative-caret-position="28">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -61,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/extension_kit_test.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="69" selection-end-column="42" />
+            <state relative-caret-position="12">
+              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -81,15 +65,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="42">
               <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/flutter/.pub-cache/hosted/pub.dartlang.org/intl-0.16.1/lib/src/intl/number_format.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2436">
-              <caret line="176" column="10" selection-start-line="176" selection-start-column="10" selection-end-line="176" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -116,7 +91,16 @@
         <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="8" selection-start-column="8" selection-end-column="8" />
+              <caret column="10" selection-start-column="10" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -143,7 +127,6 @@
       <list>
         <option value="$PROJECT_DIR$/lib/extension/helper/date_helper.dart" />
         <option value="$PROJECT_DIR$/example/lib/main.dart" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/lib/extension/num_extension.dart" />
         <option value="$PROJECT_DIR$/lib/extension/int_extension.dart" />
         <option value="$PROJECT_DIR$/lib/extension/double_extension.dart" />
@@ -151,6 +134,7 @@
         <option value="$PROJECT_DIR$/lib/extension_kit.dart" />
         <option value="$PROJECT_DIR$/lib/extension/date_extension.dart" />
         <option value="$PROJECT_DIR$/test/extension_kit_test.dart" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/pubspec.yaml" />
         <option value="$PROJECT_DIR$/CHANGELOG.md" />
       </list>
@@ -360,13 +344,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" selection-start-line="18" selection-end-line="31" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Library/flutter/.pub-cache/hosted/pub.dartlang.org/intl-0.16.1/lib/date_symbol_data_local.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -395,13 +372,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/extension/num_extension.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -426,13 +396,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/extension_kit_test.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="69" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/extension_kit.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14">
@@ -447,10 +410,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/extension_kit_test.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
         </state>
       </provider>
     </entry>

@@ -2,6 +2,8 @@
 
 This is Dart extension kit. If this plugin is imported your project, it enable to use various extension function.
 
+https://pub.dev/packages/extension_kit
+
 ## Installation
 
 Add this to your package's pubspec.yaml file:
@@ -23,6 +25,12 @@ Implementation extension's list. It will be create more extension feature in fut
 
 
 ## Usage
+
+Import extension_kit.
+
+```dart
+import 'package:extension_kit/extension_kit.dart';
+```
 
 ### int
 
