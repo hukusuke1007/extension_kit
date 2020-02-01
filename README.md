@@ -17,11 +17,11 @@ dependencies:
 
 Implementation extension's list. It will be create more extension feature in future.
 
-- [int](###int)
-- [double](###double)
-- [num](###num)
-- [String](###String)
-- [Date](###Date)
+- [int](#int)
+- [double](#double)
+- [num](#num)
+- [String](#String)
+- [Date](#Date)
 
 
 ## Usage
