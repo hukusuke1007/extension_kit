@@ -1,3 +1,6 @@
+## 0.1.0+4
+Deleted unnecessary files.
+
 ## 0.1.0+3
 Updated document.
 
