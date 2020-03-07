@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3320f733-7b0b-4330-963b-ebf66b18b9bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/extension_kit/lib/extension/context_extension.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/extension_kit/lib/extension/list_extension.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/extension/context_extension.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/extension/list_extension.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/extension_kit/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/extension_kit/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/extension_kit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/extension_kit/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/extension_kit/extension_kit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/extension_kit/extension_kit.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/extension_kit/lib/extension/num_extension.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/extension_kit/lib/extension/num_extension.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/extension_kit/lib/extension_kit.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/extension_kit/lib/extension_kit.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/extension/num_extension.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/extension/num_extension.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/extension_kit.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/extension_kit.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/extension_kit_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/extension_kit_test.dart" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

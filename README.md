@@ -141,7 +141,7 @@ print(dateB.isCompare(dateA));  // false
 max
 
 ```dart
-print([10, 2, 3].max());      // 0
+print([10, 2, 3].max());      // 10
 print([0.3, 1.2, 0.8].max()); // 1.2
 ```
 
