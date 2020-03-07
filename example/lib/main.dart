@@ -9,24 +9,33 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  String _platformVersion = 'Unknown';
 
   @override
   void initState() {
     super.initState();
   }
 
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Plugin example app'),
+      home: Page(),
+    );
+  }
+}
+
+class Page extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Plugin example app'),
+      ),
+      body: GestureDetector(
+        child: Center(
+          child: Text('width: ${context.deviceWidth}, height: ${context.deviceHeight}\n'
+              'Dark: ${context.isDark}\n'),
         ),
-        body: Center(
-          child: Text('Running on: $_platformVersion\n'),
-        ),
+        onTap: () => context.hideKeyboard(),
       ),
     );
   }

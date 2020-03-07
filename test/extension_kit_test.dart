@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:extension_kit/extension_kit.dart';
 
@@ -68,5 +69,10 @@ void main() {
     expect(dateA.isCompare(dateB), true);
     expect(dateA.isCompare(dateC), true);
     expect(dateB.isCompare(dateA), false);
+  });
+
+  test('List extension test.', () async {
+    expect([10, 2, 3].max(), 10);
+    expect([0.3, 1.2, 0.8].max(), 1.2);
   });
 }

@@ -22,6 +22,8 @@ Implementation extension's list. It will be create more extension feature in fut
 - [num](#num)
 - [String](#String)
 - [Date](#Date)
+- [List](#List)
+- [Context](#Context)
 
 
 ## Usage
@@ -132,4 +134,37 @@ final dateC = DateTime(2020, 10, 7, 20, 10, 30);
 print(dateA.isCompare(dateB));  // true
 print(dateA.isCompare(dateC));  // true
 print(dateB.isCompare(dateA));  // false
+```
+
+### List
+
+max
+
+```dart
+print([10, 2, 3].max());      // 0
+print([0.3, 1.2, 0.8].max()); // 1.2
+```
+
+### Context
+
+isDark
+
+```dart
+final isDark = context.isDark; // Dark mode => true, not dark mode => false
+```
+
+deviceWidth, deviceHeight
+
+```dart
+final width = context.deviceWidth; // device width from MediaQuery.of(this).size
+final height = context.deviceHeight; // device height from MediaQuery.of(this).size
+```
+
+hideKeyboard
+
+```dart
+GestureDetector(
+  child: ...,
+  onTap: () => context.hideKeyboard(),
+),
 ```
